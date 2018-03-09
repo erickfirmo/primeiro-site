@@ -1,0 +1,346 @@
+@charset "UTF-8";
+
+/*--- DEFAULT ---*/
+
+*
+{ margin: 0;
+	padding: 0;
+	font-weight: 400;
+	
+}
+
+body
+{
+	padding-top: 62px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	color: #585858;
+}
+
+
+/*--- NAVBAR ---*/
+
+.navbar-custom
+{
+    position: fixed;
+    top: 33px;
+    left: 0;
+    width: 100%; 
+	z-index: 16;
+	height: 80px;
+
+	background-color: #cb324b;
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, .4);
+	font-size: 16px;
+}
+
+.navbar-custom *, .navbar-custom *:hover
+{
+    color: #fff;
+}
+
+.navbar-custom li {
+	padding-left: 40px;
+}
+
+.navbar-custom a:hover
+{
+    text-shadow: 2px 6px 10px rgba(0, 0, 0, .5);
+}
+
+nav .navbar-toggler
+{
+	color: #FFF;
+	font-size: 30px;
+	border: 1px solid #FFF;
+	padding: 6px 8px;
+}
+
+@media(max-width: 991px)
+{
+	div#navbarTogglerDemo01 
+	{
+        position: absolute;
+        top: 78px;
+		left: 0;
+		width: 100%;
+        background-color: rgba(88, 88, 88, .8);
+		padding-bottom: 12px;
+		box-shadow: 1px 1px 2px rgba(0, 0, 0, .4);
+	} 
+}
+
+/*---TOPBAR---*/
+
+.top-bar
+{
+	height: 34px;
+	background-color: #585858;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 17;
+	border-bottom: 1px solid #686868;
+	color: #ebebeb;
+	font-weight: 200;
+	font-size: 16px;
+	line-height: 2.3;
+}
+
+.top-bar * 
+{
+	color: #ebebeb;
+	font-size: 16px;
+	line-height: 2.3;
+}
+
+
+.topbar-left
+{
+	width: 30%;
+	text-align: left;
+}
+
+.topbar-right
+{
+	width: 70%;	
+    text-align: right;
+}
+
+.topbar-right span
+{
+    font-size: 12px;
+    position: relative;
+	top: -2px;
+	margin-right: 5px;
+}
+
+
+/*---BUTTONS---*/
+
+
+.botao-branco, .botao-vermelho
+{
+    border-color: #fff;
+    color: #fff;
+    font-size: 22px;
+	border-radius: 0;
+}
+
+.botao-vermelho, .botao-branco:hover, .botao-branco:active, .botao-vermelho:hover, .botao-vermelho:active
+{
+	background-color: #cb324b;
+}
+
+
+.enviar-contato
+{
+	margin: 0 auto;
+	display: block;
+}
+
+
+/*---FOOTER---*/
+
+
+footer
+{
+	position: relative;
+	bottom: 0;
+	left: 0;
+	background-color: #585858;
+	padding-top: 20px;
+}
+
+footer *
+{
+	color: #ebebeb;
+	font-size: 14px;
+}
+
+footer h6 {
+	margin: 30px 0 10px 0;
+	font-size: 18px;
+}
+
+footer ul, footer ul li, footer ul li a
+{
+	list-style: none;
+	display: inline;
+	padding: 0px 3px;
+	font-size: 30px;
+}
+
+#icons-footer 
+{
+    text-align: center;
+    list-style: none;
+    width: 118px;
+	margin: 0 auto;
+	height: 52px;
+}
+
+.footer-bottom
+{
+	background-color: #cb324b;
+	line-height: 2;
+	margin-top: 20px;
+}
+
+.footer-bottom *
+{	
+	color: #FFF;
+	text-align: center;
+	margin: 0;
+}
+
+
+/*--- SIDEBAR ---*/
+
+aside {
+	border-left: 1px solid #c1c1c1;	
+}
+
+aside *
+{
+	padding: 0 30px;
+}
+
+.session
+{
+	padding: 30px 0;
+	text-align: justify;
+}
+
+.session h2, .session h6
+{
+	padding: 20px 0;
+}
+
+
+
+/*--- CONTACT FORM ---*/
+
+#contato
+{
+	padding: 0 40px;
+}
+
+#contato h2
+{
+	text-align: center;
+}
+
+.input-contato {
+    border-radius: 0;
+    border: 1px solid #e4e4e4;
+    font-size: 18px;
+    background-color: #fbfbfb;
+}
+
+/*---SLIDER HOME---*/
+
+.carousel-caption *
+{
+    color: #FFF;
+}
+
+.carousel-caption
+{
+    top: 25%;
+	text-align: center;
+}
+
+.carousel-caption h1
+{
+	font-size: 68px;
+}
+
+.carousel-caption p
+{
+	font-size: 22px;
+}
+
+.carousel-indicators 
+{
+	bottom: 0;
+}
+
+.carousel-indicators li
+{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+
+
+@media(max-width: 580px)
+{
+	.carousel-caption
+	{
+		top: 10%;
+	}
+	.carousel-caption h1
+	{
+		font-size: 36px;
+		
+	}
+	.carousel-caption p
+	{
+		font-size: 16px;
+		margin-left: 10px;
+	}
+
+	.botao-vermelho, .botao-branco
+	{
+    	font-size: 16px;
+	}
+}
+
+
+@media(max-width: 425px)
+{
+	.w-100 {
+		height: 200px;
+	}
+}
+
+
+/*---BOX HOME---*/
+.box img.circle-img
+{
+	width: 150px;
+	background-color: #fff;
+	margin: 0 auto;
+    display: block;
+}
+
+
+.box *
+{
+	margin: 20px;
+	text-align: center;
+}
+
+/*---SOLID CONTAINER ROW---*/
+
+
+.linha
+{
+	padding: 60px 0;
+}
+
+.linha-vermelha, .linha-vermelha *
+{
+	background-color: #cb324b;
+	color: #fff;
+	text-align: justify;
+}
+
+.maos-note {
+	margin-top: 10px;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .4);
+}
+
