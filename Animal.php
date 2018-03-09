@@ -6,7 +6,7 @@ class Animal
     public $nome;
     public $idade;
     public $cor;
-    public $caracteristica;
+    public $descricao;
 
     public function __construct($esp) { $this->setEspecie($esp); }
     
@@ -21,23 +21,5 @@ class Animal
     }
 }
 
-
-
-
-
-
-
-
-
-
-$eu = new Animal("Erick");
-
-$a = new Animal("Alice");
-
-echo '<p>';
-
-print_r($a);
-
-echo '</p>';
 
 
