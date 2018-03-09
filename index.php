@@ -41,7 +41,7 @@
 				
 						
 		
-			<div class="col-md-8">
+			<div class="col-md-6">
 				<p>Curabitur massa leo, pellentesque ac mauris eu, ornare fringilla enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus aliquet, enim id porta ornare, nulla risus euismod massa, ut scelerisque ligula magna ut libero. Donec eu accumsan ex. Morbi vulputate metus quis rhoncus dictum. Sed ante dui, facilisis at ultricies ac, commodo vitae dolor. Praesent molestie hendrerit quam, ac congue lorem convallis et. Cras aliquam nec est vitae rhoncus.</p>
 					
 				<p>turpis id scelerisque. Quisque rutrum arcu a nunc rhoncus maximus.Ut fermentum malesuada convallis. Vivamus porttitor vitae risus sit amet lacinia. Donec mattis, velit nec venenatis consequat, erat ante semper dolor, facilisis iaculis urna purus nec mi. Duis gravida lobortis eros, ac pharetra orci lobortis vel. Nulla auctor posuere magna.</p>
@@ -50,7 +50,7 @@
 				</div>
 
 
-			<div class="col-md-4">
+			<div class="col-md-6">
 				<img src="img/maos-notebook.jpg" class="img-fluid maos-note" alt="First">
 				</div>
 				
@@ -61,15 +61,14 @@
 	<article>
 		<div class="container">
 			<div class="row linha">
-				<div class="col-md-2">
+				<div class="col-md-1">
 				</div>
-				<div id="contato" class="col-md-8 right-content">
+				<div id="contato" class="col-md-10">
 					<?php
-						include "";
 						include "partials/_contact-form.php";
 					?>
 				</div>
-				<div class="col-md-2">	
+				<div class="col-md-1">	
 				</div>
 		</div>
 </article>
@@ -90,7 +89,9 @@
 	
 </session>
 
+	
 <?php
+	include "partials/_maps.php";
 	include 'partials/_scripts.php';
 	include 'partials/_footer.php'; ?>
 

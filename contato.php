@@ -10,44 +10,31 @@
 	<article>
 		<div class="container">
 			<div class="row linha">
-				<?php
-				
+				<div id="contato" class="left-content col-md-8">
 
-					include 'partials/_sidebar.php';
-					
-					include 'partials/_contact-form.php';
-				?>
+			<?php
+				include 'partials/_contact-form.php';
+
+				echo '</div>';
+
+				include 'partials/_sidebar.php';
+
+				echo '</div>';
+			?>
+
+				</div>
 			</div>
 		</div>
+
 	</article>
 
 	
+	<?php
+		include "partials/_maps.php";
+	?>
+
+
 </session>
-
-
-
-
-
-<div class="container-fluid">
-		<div class="row linha-vermelha">
-			<div class="col-md-3 box">
-				<img src="img/icon-desenvolvimento.png" class="img-fluid">
-			</div>
-
-			<div class="col-md-3 box">
-				<img src="img/google_adwords_logo.png" class="img-fluid">
-			</div>
-
-			<div class="col-md-3 box">
-				<img src="img/chaves-logo.png" class="img-fluid">
-			</div>
-			
-			<div class="col-md-3 box">
-				<img src="img/java-logo.png" class="img-fluid">
-			</div>
-		</div>
-	</div>
-
 
 <?php
 include "partials/_scripts.php";

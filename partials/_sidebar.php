@@ -1,5 +1,5 @@
 
-<aside class="col-md-4 left-content">
+<aside class="col-md-4">
     <h4>Endereço</h4>
 	<article>
 		<h6>Lorem Ipsum</h6>
