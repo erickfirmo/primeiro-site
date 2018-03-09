@@ -1,8 +1,6 @@
 
-<aside class="col-md-3">
-
-    <h4>Novidades</h4>
-    <br>
+<aside class="col-md-4 left-content">
+    <h4>Endereço</h4>
 	<article>
 		<h6>Lorem Ipsum</h6>
 		<p>Suspendisse urna lectus, varius a nibh at, pretium vulputate magna. Donec lacus elit, porta ac euismod vel, consectetur non dolor. Suspendisse auctor sem sed ultrices maximus.</p>
