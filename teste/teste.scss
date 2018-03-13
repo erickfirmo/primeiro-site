@@ -1,5 +1,11 @@
-$cor-legal: #BADA55;
+$cor-legal: rgb(147, 36, 162);
  
-.course {
-  color: $cor-legal;
+#header {
+  li {
+    a {
+      color: $cor-legal;
+    }&hover{
+      color: blue;
+    }
+  }
 }

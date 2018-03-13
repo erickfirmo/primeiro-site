@@ -63,7 +63,7 @@
 			<div class="row linha">
 				<div class="col-md-1">
 				</div>
-				<div id="contato" class="col-md-10">
+				<div class="col-md-10">
 					<?php
 						include "partials/_contact-form.php";
 					?>

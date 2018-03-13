@@ -6,11 +6,16 @@
 	include 'partials/_header.php'; 
 ?>
 
+<div id="contato" class="container-fluid">
+	<h3>CONTATO</h3>
+
+</div>
+
 <session id="session">
 	<article>
 		<div class="container">
 			<div class="row linha">
-				<div id="contato" class="left-content col-md-8">
+				<div class="left-content col-md-8">
 
 			<?php
 				include 'partials/_contact-form.php';
