@@ -1,2 +1,2 @@
 <!-- Font Awesome -->
-<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<script defer src="resource/fontawesome/svg-with-js/js/fontawesome-all.js"></script>

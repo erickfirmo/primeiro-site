@@ -16,13 +16,13 @@
             <div class="col-md-4">
                 <h6>Endereço</h6>
                 <br>
-                <ul>
+                <ul class="endereco">
                     <li>Pellentesque Lacinia Magna, 180</li>
                     <li>Praesent Euismod - UF</li>
                 </ul>
             </div>
             <div class="col-md-4">
-                <h6>Galeria</h6>
+                <h6>Sobre</h6>
                 <br>
                 <p>Vestibulum mattis dui a auctor tempus. Curabitur sodales bibendum congue. pharetra felis in mauris eleifend, vitae porta tortor tempor. Sed quam metus, pretium et metus nec.</p>
             </div>
