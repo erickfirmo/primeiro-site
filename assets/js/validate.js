@@ -1,4 +1,4 @@
-$(document).ready(function() {
+﻿$(document).ready(function() {
 
    $("#formContato").validate({
       rules: {
@@ -24,12 +24,12 @@ $(document).ready(function() {
 
          email: {
             required: "<span class='alert-danger custom-error'>O preenchimento do campo email é obrigatório !</span>",
-            equalTo: "<span class='alert-danger custom-error'>Os campos de email não correspondem. Confirme os dados e tente novamente !</span>"
+            equalTo: "<span class='alert-danger custom-error'>Os campos de email não correspondem !</span>"
          },
 
          confEmail: {
             required: "<span class='alert-danger custom-error'>O preenchimento do campo confirmar email é obrigatório ! </span>",
-            equalTo: "<span class='alert-danger custom-error'>Os campos de email não correspondem. Confirme os dados e tente novamente !</span>"
+            equalTo: "<span class='alert-danger custom-error'>Os campos de email não correspondem !</span>"
          }
 
       }

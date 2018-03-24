@@ -23,7 +23,3 @@
 		</div>
 	</div>
 </div>
-
-
-
-<i class="fab fa-linkedin"></i>

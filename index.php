@@ -9,17 +9,17 @@
 	<div class="row linha">
 		<div class="col-md-4 box">
 			<img class="circle-img" src="img/icon-desenvolvimento.png">
-			<h3 class="title">Lorem</h3>
+			<h3 class="title">Desenvolvimento Web</h3>
 			<p>Donec sollicitudin tincidunt dui vel mollis. Sed ut purus in ante viverra gravida. Vestibulum in aliquam arcu, at pharetra turpis.</p>
 		</div>
 		<div class="col-md-4 box">	
 			<img class="circle-img" src="img/google_adwords_logo.png">
-			<h3 class="title">Ipsum</h3>
+			<h3 class="title">Marketing Digital</h3>
 			<p>Sed pretium condimentum sagittis. Nulla urna magna, lobortis ac quam et, semper faucibus nulla. Vestibulum congue, est sit amet.</p>
 		</div>
 		<div class="col-md-4 box">
 			<img class="circle-img" src="img/chaves-logo.png">
-			<h3 class="title">Dolor</h3>
+			<h3 class="title"> Aplicativos Mobile</h3>
 			<p>Sed pretium condimentum sagittis. Nulla urna magna, lobortis ac quam et, semper faucibus nulla. Vestibulum congue, est sit amet.</p>
 		</div>
 	</div>
@@ -28,7 +28,7 @@
 <div class="container-fluid">
 		<div class="row linha linha-vermelha">
 			<div class="col-md-12">
-				<h3>Lorem Ipsum Dolor Sit Amet</h3><br>
+				<h3>Desenvolvimento de Sites e Sistemas</h3><br>
 			</div>
 			<div class="col-md-6">
 				<p>Curabitur massa leo, pellentesque ac mauris eu, ornare fringilla enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus aliquet, enim id porta ornare, nulla risus euismod massa, ut scelerisque ligula magna ut libero. Donec eu accumsan ex. Morbi vulputate metus quis rhoncus dictum. Sed ante dui, facilisis at ultricies ac, commodo vitae dolor. Praesent molestie hendrerit quam, ac congue lorem convallis et. Cras aliquam nec est vitae rhoncus.</p>	
