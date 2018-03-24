@@ -1,4 +1,4 @@
-<div class="contato" id="contatoForm">
+<div class="contato" id="formContato">
 	<h2>Contato</h2>
 	<form action="#" method="post">
 		<div class="col-md-12">
@@ -27,7 +27,7 @@
 
 				<div class="col-md-12">
 					<input type="checkbox" class="form-check-inputs" checked="checked">
-					<label for="cv-check" class="form-check-label">Concordo em receber mensagens neste endereço de email</label><br><br>
+					<label for="cv-check" class="form-check-label">Concordo em receber mensagens neste endereço de email</label>
 				</div>
 				
 
