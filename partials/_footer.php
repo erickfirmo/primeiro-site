@@ -37,7 +37,7 @@
     <div class="container-fluid footer-bottom">
         <div class="row">
             <div class="col-md-12">
-                <p>Desenvolvido por Erick Firmo - 2018</p>
+                <p>Desenvolvido por Érick Firmo - 2018</p>
             </div>
         </div>
     </div>

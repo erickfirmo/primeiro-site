@@ -5,7 +5,7 @@
 	include 'partials/_carouselhome.php';
 ?>
 
-<div class="container">
+<div class="container" id="sobre">
 	<div class="row linha">
 		<div class="col-md-4 box">
 			<img class="circle-img" src="img/icon-desenvolvimento.png">
@@ -41,10 +41,9 @@
 		</div>
 </div>
 
-<div>
-	<div class="container">
-		<div class="row linha">
 
+<div class="container">
+	<div class="row linha">
 		<div class="col-md-1">
 		</div>
 		<div class="col-md-10">
@@ -54,9 +53,9 @@
 		</div>
 		<div class="col-md-1">	
 		</div>
-
 	</div>
 </div>
+
 	
 <?php
 	include "partials/_maps.php";

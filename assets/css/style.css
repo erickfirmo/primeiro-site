@@ -122,9 +122,9 @@ nav .navbar-toggler
 }
 
 
-.enviar-contato
+input.enviar-contato
 {
-	margin: 0 auto;
+	margin: 50px auto 0;
 	display: block;
 }
 
@@ -223,30 +223,30 @@ form {
 
 
 textarea.input-contato {
-	height: 160px;
+	max-height: 160px;
+	min-height: 160px;
 }
 
 /*---SLIDER HOME---*/
 
-.carousel-caption *
+.titulos-slider *
 {
     color: #FFF;
 }
 
-.carousel-caption
+.titulos-slider h1
 {
-    top: 25%;
-	text-align: center;
+	font-size: 120px;
 }
 
-.carousel-caption h1
+.titulos-slider p
 {
-	font-size: 68px;
+	font-size: 24px;
 }
 
-.carousel-caption p
+.titulos-slider
 {
-	font-size: 22px;
+	top: 25%;
 }
 
 .carousel-indicators 
@@ -261,45 +261,60 @@ textarea.input-contato {
 	border-radius: 50%;
 }
 
+@media(max-width: 1023px)
+{
+	/* responsive slider */
+	.titulos-slider h1
+	{
+		font-size: 72px;
+	}
+	.titulos-slider p
+	{
+		font-size: 20px;
+		text-align: center;
+	}
+	.titulos-slider
+	{
+		top: 25%;
+	}
+}
 
 @media(max-width: 767px)
 {
-	.carousel-caption
+	/* responsive slider */
+	.titulos-slider h1
 	{
-		top: 10%;
+		font-size: 52px;	
 	}
-	.carousel-caption h1
+	.titulos-slider p
+	{
+		font-size: 18px;
+		text-align: center;
+	}
+	.titulos-slider
+	{
+		top: 15%;
+	}
+}
+
+@media(max-width: 424px)
+{
+	/* responsive slider */
+	.titulos-slider h1
 	{
 		font-size: 36px;
-		
 	}
-	.carousel-caption p
+	.titulos-slider p
 	{
-		font-size: 16px;
-		margin-left: 10px;
+		font-size: 14px;
+		text-align: center;
 	}
-
-	.botao-vermelho, .botao-branco
+	.titulos-slider
 	{
-    	font-size: 16px;
+		top: 5%;
 	}
-	
-	.left-content, .right-content
-	{
-		border: none;
-		padding: 0;
-	}
-	
-	
 }
 
-
-@media(max-width: 425px)
-{
-	.w-100 {
-		height: 200px;
-	}
-}
 
 
 /*---BOX HOME---*/
@@ -363,20 +378,4 @@ iframe#google-maps
 {
 	width: 100%;
 	height: 400px;
-}
-
-/* --- TITLE CONTATO -- */
-
-#contato
-{
-	background: url("../img/parallax-background-dark.jpg");
-	height: 400px;
-}
-#contato , #contato h1
-{
-	background: url("../img/parallax-background-dark.jpg");
-	height: 400px;
-	font-size: 60px;
-	text-align: center;
-	color: #FFF;
 }
