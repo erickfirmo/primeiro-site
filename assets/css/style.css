@@ -208,12 +208,12 @@ ul.endereco, ul.endereco li {
 
 /* -- CONTACT --*/
 
-#formContato 
+.contato 
 {
 	margin: 20px 0;
 }
 
-#formContato h2
+.contato h2
 {
 	text-align: center;
 	font-size: 40px;
@@ -384,4 +384,9 @@ iframe#google-maps
 {
 	width: 100%;
 	height: 400px;
+}
+
+.custom-error {
+	padding: 5px;
+	border: 1px solid #d63535
 }

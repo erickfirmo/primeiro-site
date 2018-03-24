@@ -1,6 +1,6 @@
-<div class="contato" id="formContato">
+<div class="contato">
 	<h2>Contato</h2>
-	<form action="#" method="post">
+	<form action="#" method="post" id="formContato">
 		<div class="col-md-12">
 			<div class="row">
 				<div class="col-md-12">

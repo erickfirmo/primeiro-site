@@ -61,6 +61,3 @@
 	include "partials/_maps.php";
 	include 'partials/_scripts.php';
 	include 'partials/_footer.php'; ?>
-
-</body>
-</html>

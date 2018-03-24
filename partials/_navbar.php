@@ -20,7 +20,7 @@
           <a class="nav-link" href="#"><i class="fas fa-tags"></i> Portfólio <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#contatoForm"><i class="fas fa-envelope"></i> Contato <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#formContato"><i class="fas fa-envelope"></i> Contato <span class="sr-only">(current)</span></a>
         </li>
       </ul>
     </div>
