@@ -228,12 +228,6 @@ ul.endereco, ul.endereco li {
 	margin-bottom: 10px;
 }
 
-.input-contato:focus
-{
-	
-}
-
-
 textarea.input-contato {
 	max-height: 160px;
 	min-height: 160px;
