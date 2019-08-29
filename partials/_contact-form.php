@@ -32,7 +32,7 @@
 				
 
 				<div class="col-md-12">
-					<input type="submit" class="btn btn-danger botao-vermelho enviar-contato" value="Enviar">
+					<input type="submit" style="width:100%;" class="btn btn-danger botao-vermelho enviar-contato" value="Enviar">
 				</div>
 
 			</div>
